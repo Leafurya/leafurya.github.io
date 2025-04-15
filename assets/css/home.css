@@ -1,0 +1,41 @@
+.post_platform{
+	display: flex;
+	flex-direction: row;
+}
+.intro{
+	font-size:large;
+}
+
+.post_platform ul{
+	padding: 0 10px 0 0;
+}
+
+.card-list {
+	list-style: none;
+	padding: 0;
+	display: grid;
+	gap: 10px;
+}
+.card-list li {
+	background: #f9f9f9;
+	padding: 15px 20px;
+	border-radius: 12px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	transition: background 0.3s;
+}
+.card-list li:hover {
+	background: #e0e0e0;
+}
+.post_platform a{
+	text-decoration: none;
+	color: black;
+}
+.date{
+	font-size:large;
+}
+.tag{
+	font-size:large;
+	padding: 2px 5px;
+	border-radius: 5px;
+	background-color: #e0e0e0;
+}

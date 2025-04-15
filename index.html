@@ -1,4 +1,49 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+title: "환영합니다"
+excerpt: "전능한 개발자 지망생 이명규의 블로그입니다."
+header:
+  overlay_color: "#000"     # 배경 색 (어두운 오버레이)
+  overlay_filter: "0.3"     # 오버레이 투명도 (0~1)
+  overlay_image: /assets/images/main_banner.jpg  # 배경 이미지
+  cta_label: "소개 보기"    # 배너에 뜨는 버튼
+  cta_url: "/about/"        # 버튼을 클릭했을 때 이동할 URL
+  caption: "개발과 성장을 기록하는 공간입니다."
 ---
+<link href="{{'assets/css/home.css'|relative_url}}" rel="stylesheet">
+<div class="post_platform">
+	<div style="flex: 1">
+		<h2><a href="/issues/">Issues</a></h2>
+		<span class="intro">개발 중 경험한 이슈를 기록합니다.</span>
+		<ul class="card-list">
+			{% assign issues_posts = site.categories.issues %}
+			{% for post in issues_posts limit:5 %}
+				<li>
+				<a href="{{ post.url }}">{{ post.title }}</a><br>
+				{% for tag in post.tags %}
+					<span class="tag">{{ tag }}</span>
+				{% endfor %}
+				<br>
+				<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div style="flex: 1">
+		<h2>Products</h2>
+		<span class="intro">개발한 제품을 소개합니다.</span>
+		<ul class="card-list">
+			{% assign products_posts = site.categories.products %}
+			{% for post in products_posts limit:5 %}
+				<li>
+				<a href="{{ post.url }}">{{ post.title }}</a><br>
+				{% for tag in post.tags %}
+					<span class="tag">{{ tag }}</span>
+				{% endfor %}
+				<br>
+				<span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -111,13 +111,14 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+
 # Site Author
 author:
   name             : "이명규"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Korea"
-  email            : "iarnmango@gmail.com
+  bio              : "전능한 개발자 지망생입니다."
+  location         : "South Korea"
+  email            : "iarnmango@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -301,7 +302,8 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
+header:
+  nav: "main"  # 이게 위에 만든 navigation.yml의 키 이름
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
@@ -320,6 +322,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+
+google_fonts: 
+  - family: Noto Sans KR
