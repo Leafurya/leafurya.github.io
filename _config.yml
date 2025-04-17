@@ -149,8 +149,8 @@ footer:
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
+      url: "https://github.com/Leafurya"
       icon: "fab fa-fw fa-github"
-      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
