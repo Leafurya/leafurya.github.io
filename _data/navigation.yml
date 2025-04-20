@@ -21,6 +21,8 @@ issues:
         url: /issues/content4/
       - title: "WPF 프로젝트에 외부 모듈 연결하는 방법"
         url: /issues/content5/
+      - title: "VS2022 WPF 프로젝트에서 XML 주석 줄바꿈 처리 방법"
+        url: /issues/content6/
 
 products:
   - title: "글 목록"
