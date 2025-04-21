@@ -23,6 +23,8 @@ issues:
         url: /issues/content5/
       - title: "VS2022 WPF 프로젝트에서 XML 주석 줄바꿈 처리 방법"
         url: /issues/content6/
+      - title: "Windows에서 DLL에 포함된 함수 목록 확인하는 방법"
+        url: /issues/content7/
 
 products:
   - title: "글 목록"
