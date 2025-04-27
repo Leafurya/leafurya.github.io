@@ -4,7 +4,7 @@ main:
     url: /issues/
   - title: "Products"
     url: /products/
-  
+   
 issues:
   - title: "글 목록"
     children:
