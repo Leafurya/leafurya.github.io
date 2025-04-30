@@ -29,6 +29,8 @@ issues:
         url: /issues/content8/
       - title: "C++에서 문자열 포맷팅 방법 정리"
         url: /issues/content9/
+      - title: "CMake GUI로 오픈 소스 프로젝트 빌드하는 방법"
+        url: /issues/content10/
 
 products:
   - title: "글 목록"
