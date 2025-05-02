@@ -31,6 +31,8 @@ issues:
         url: /issues/content9/
       - title: "CMake GUI로 오픈 소스 프로젝트 빌드하는 방법"
         url: /issues/content10/
+      - title: "CMake 빌드 중 MSB3073 오류 해결 방법"
+        url: /issues/content11/
 
 products:
   - title: "글 목록"
