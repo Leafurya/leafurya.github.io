@@ -39,3 +39,15 @@
 	border-radius: 5px;
 	background-color: #e0e0e0;
 }
+@media (max-width: 800px) {
+	.post_platform{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.tag{
+		font-size:small;
+		padding: 2px 5px;
+		border-radius: 5px;
+		background-color: #e0e0e0;
+	}
+}
