@@ -33,6 +33,8 @@ issues:
         url: /issues/content10/
       - title: "CMake 빌드 중 MSB3073 오류 해결 방법"
         url: /issues/content11/
+      - title: ".dmp 파일을 이용한 디버깅 방법"
+        url: /issues/content12/
 
 products:
   - title: "글 목록"
