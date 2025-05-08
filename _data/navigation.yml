@@ -35,6 +35,8 @@ issues:
         url: /issues/content11/
       - title: ".dmp 파일을 이용한 디버깅 방법"
         url: /issues/content12/
+      - title: ".dmp 파일 생성 및 디버깅 방법"
+        url: /issues/content13/
 
 products:
   - title: "글 목록"
