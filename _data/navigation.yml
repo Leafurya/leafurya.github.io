@@ -37,6 +37,8 @@ issues:
         url: /issues/content12/
       - title: ".dmp 파일 생성 및 디버깅 방법"
         url: /issues/content13/
+      - title: "C#에서 async 메서드를 기다리는 방법"
+        url: /issues/content14/
 
 products:
   - title: "글 목록"
