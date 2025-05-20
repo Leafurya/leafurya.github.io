@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Program Quickslot - 원하는 프로그램을 단축키 한 번으로 실행하고 정돈하세요!(출시 대기)"
-date: 2025-05-17
+title: "Program Quickslot - 원하는 프로그램을 단축키 한 번으로 실행하고 정돈하세요!"
+date: 2025-05-20
 permalink: /products/programquickslot/
 categories: [products]
 tags: [MS Store, 단축키 실행, 자동 배치, 생산성, 유틸리티]

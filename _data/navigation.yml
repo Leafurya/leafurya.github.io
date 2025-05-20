@@ -45,7 +45,7 @@ products:
     children:
       - title: "두뇌 회전! 암산 연습 웹 서비스 소개"
         url: /products/brain/
-      - title: "Program Quickslot - 원하는 프로그램을 단축키 한 번으로 실행하고 정돈하세요!(출시 대기)"
+      - title: "Program Quickslot - 원하는 프로그램을 단축키 한 번으로 실행하고 정돈하세요!"
         url: /products/programquickslot/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
