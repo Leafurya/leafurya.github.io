@@ -44,7 +44,7 @@ classes: wide
 - **설치 방식**: MSI (Visual Studio의 Setup 프로젝트로 패키징)
 - **운영 체제 요구사항**: Windows 10 이상
 
-👉 [Microsoft Store에서 설치하기(출시 대기)](-)
+👉 [Microsoft Store에서 설치하기](https://apps.microsoft.com/store/detail/XPDND4F97L5LCZ)
 
 ---
 
