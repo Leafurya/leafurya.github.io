@@ -41,6 +41,8 @@ issues:
         url: /issues/content14/
       - title: "MS Store 제출 시 Security 에러 (바이너리 해시 변경) 해결 방법"
         url: /issues/content15/
+      - title: "WPF 사용자 정의 컨트롤 미리보기 오류 (namespace 인식 안됨) 해결 방법"
+        url: /issues/content16/
 
 products:
   - title: "글 목록"

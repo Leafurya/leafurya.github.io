@@ -4,7 +4,7 @@ title: "Program Quickslot - 원하는 프로그램을 단축키 한 번으로 �
 date: 2025-05-20
 permalink: /products/programquickslot/
 categories: [products]
-tags: [MS Store, 단축키 실행, 자동 배치, 생산성, 유틸리티]
+tags: [Microsoft Store, 단축키 실행, 자동 배치, 생산성, 유틸리티]
 sidebar:
   nav: "products"
 classes: wide
