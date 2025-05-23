@@ -29,6 +29,9 @@
 .post_platform a{
 	text-decoration: none;
 	color: black;
+	word-break: keep-all;
+	overflow-wrap: break-word;
+	/* white-space: normal; */
 }
 .date{
 	font-size:large;
@@ -38,6 +41,8 @@
 	padding: 2px 5px;
 	border-radius: 5px;
 	background-color: #e0e0e0;
+	word-break: keep-all;
+	overflow-wrap: break-word;
 }
 @media (max-width: 800px) {
 	.post_platform{
